@@ -1,0 +1,99 @@
+/* Basic styles for quiz */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f6f8fb;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px 24px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(32, 33, 36, 0.08);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.question {
+    margin-bottom: 16px;
+    border: 1px solid #eee;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.option input {
+    margin-right: 6px;
+}
+
+.opt-key {
+    font-weight: 700;
+    width: 28px;
+    display: inline-block;
+}
+
+.feedback {
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.feedback.correct {
+    background: #e6ffed;
+    color: #0a7a2b;
+    border: 1px solid #c7f0d0;
+}
+
+.feedback.wrong {
+    background: #fff0f0;
+    color: #a30000;
+    border: 1px solid #f3c0c0;
+}
+
+.score {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.actions {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+button {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button[type="button"] {
+    background: #6b7280;
+}
+
+button:hover {
+    opacity: 0.95;
+}
